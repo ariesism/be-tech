@@ -45,7 +45,10 @@ DB_DATABASE=be-tech
 DB_USERNAME=root
 DB_PASSWORD=root
 ```
+---
 在terminal中依序輸入下列步驟
-> composer install --no-dev
-> php artisan migrate --seed
-> php artisan optimize
+```
+composer install --no-dev
+php artisan migrate --seed
+php artisan optimize
+```
