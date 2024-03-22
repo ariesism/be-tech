@@ -1,13 +1,13 @@
 # 關於
 ### 環境需求
-這次使用Laravel最新版進行開發，必須環境為：
+這次使用Laravel 10進行開發，必須環境為：
 - laravel 10
 - php 8.1^
 
 
 ### 做法
-- 根據題目所示，利用安裝sanctum進行api開發
-- 利用ORM中polymorphic relationship將圖片上傳解藕
+- 利用sanctum套件進行api開發
+- 利用ORM中polymorphic relationship將圖片上傳解耦
 - 回傳api格式由resource設定一致性回應方式
 - 在PostController中，用apiResource統一管理，但根據題目所示，目前僅開啟index, store，其餘有設定fallback
 - 資料驗證，另外由Requests進行分門別類的驗證(validation)
